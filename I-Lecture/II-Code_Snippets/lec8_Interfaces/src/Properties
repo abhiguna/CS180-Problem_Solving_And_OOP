@@ -1,0 +1,8 @@
+Interface Properties
+
+- An Interface contains:
+    - No fields
+    - No Method Bodies except Default Methods
+
+- A Class can implement multiple interfaces
+    * It must define the union of all the methods defined in the interfaces.

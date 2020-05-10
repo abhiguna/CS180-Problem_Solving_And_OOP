@@ -1,0 +1,8 @@
+Exception Class Hierarchy
+
+                                Exception
+
+IOException                  RunTimeException          Your Exception
+*FileNotFoundException      *ArithmeticException       *Pre-Defined!!!
+                            *NullPointerException
+                            *IndexOutOfBoundsException

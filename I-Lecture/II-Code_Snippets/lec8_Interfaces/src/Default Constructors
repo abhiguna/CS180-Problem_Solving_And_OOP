@@ -1,0 +1,10 @@
+Default Constructors
+
+- Java Automatically Assigns Default Constructors
+
+public ClassName() {
+    super(); // Default Chaining
+}
+
+//super() must always be the first statement
+  in a constructor.

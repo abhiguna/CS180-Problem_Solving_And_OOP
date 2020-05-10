@@ -1,0 +1,6 @@
+Constructor Rules
+
+* Every class musty have at least one constructor
+
+* The first line of every constructor must be a call to
+  another constructor.

@@ -1,0 +1,9 @@
+the instanceOf Operator
+* Helpful in determining whether a Object is of a particular type
+
+The expression...
+- (objectA instanceof ClassB)
+
+Eg.
+    (student1 instanceof Student) --> true
+    (student1 instanceof Person) --> true

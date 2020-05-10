@@ -1,0 +1,6 @@
+Polymorphism
+
+- Very Important OOP Concept.
+- In essence, the superclass takes a reference to the subclass.
+- However, the compiler executes the subclass implementation of overridden-methods.
+

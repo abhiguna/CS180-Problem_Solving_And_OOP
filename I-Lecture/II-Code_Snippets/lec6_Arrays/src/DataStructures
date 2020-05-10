@@ -1,0 +1,15 @@
+What is a Data Structure?
+- A unit for storing data in bulk.
+- Also known as "aggregate data type."
+
+Data Structure Characteristics:
+* Contents: What Types of Data are you holding?
+    - Heterogeneous data
+    - Homogeneous data
+* Size: The number of data values it contains
+    - static (fixed size)
+    - dynamic (can grow or shrink)
+* Element Access: how efficiently can different elements be inserted,
+                  deleted, or changed?
+    - Sequential access
+    - Random access

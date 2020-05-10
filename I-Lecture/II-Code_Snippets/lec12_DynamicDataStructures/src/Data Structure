@@ -1,0 +1,9 @@
+Terminology
+
+* Data Structure:
+    - A way to organize, store, and retrieve information.
+
+* Dynamic Data Structures:
+    - A data structure whose memory use can grow and shrink as
+    necessary to store the information being maintained.
+

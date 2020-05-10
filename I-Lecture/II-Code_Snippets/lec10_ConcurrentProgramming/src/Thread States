@@ -1,0 +1,8 @@
+A Java thread goes through several states in its lifetime:
+* New thread: created but not yet started
+* Runnable: started and available to be run
+* Not Runnable: sleeping, waiting for i/o, etc.
+
+Terminated: returned from the run() method
+* t.sleep(n) puts the current thread to sleep for n milliseconds; allows other threads to run
+* t.yield() “gives up” the CPU, letting another thread run

@@ -1,0 +1,11 @@
+Terminology:
+
+- IP (Internet Protocol): identifies the hosts with unique addresses.
+- DNS (Domain Name System): Maps domain names to IP Addresses.
+        (www.purdue.edu)->111.22.3.444
+- TCP (Transmission Control Protocol): Identifies the ports on hosts for a network connection.
+- Socket: IP + TCP.
+- Server: A process that waits for a connection.
+- Client: The process that connects to a server.
+    * At different times, a process may be both a client and a server.
+

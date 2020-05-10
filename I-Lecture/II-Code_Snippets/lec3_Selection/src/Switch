@@ -1,0 +1,13 @@
+Switch Basic Syntax:
+
+switch (expression) {
+    case value1:
+        statements;
+        break;
+    case value2:
+        statements;
+        break;
+    default:
+        statements;
+        break;
+}

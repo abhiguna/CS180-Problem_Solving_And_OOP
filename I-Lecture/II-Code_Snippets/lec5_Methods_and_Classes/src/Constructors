@@ -1,0 +1,8 @@
+Constructors:
+
+E.g. Counter c1 = new Counter(500);
+
+- Called with the invokation of "new"
+- Can access all variables, including those that are static.
+- The "new" operator returns a reference to the "constructed" object.
+

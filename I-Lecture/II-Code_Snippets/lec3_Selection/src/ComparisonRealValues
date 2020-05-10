@@ -1,0 +1,7 @@
+Comparing Real Values
+
+- Replace
+    if (x == y)
+
+- By ...
+    if (Math.abs(x - y) < epsilon)

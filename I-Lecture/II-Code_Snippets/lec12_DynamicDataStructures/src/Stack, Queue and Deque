@@ -1,0 +1,13 @@
+Same concepts, Many Names
+
+- Stack...
+    - push, pop, top
+    - push, pop, peek
+
+- Queue
+    - put, get, peek
+    - enqueue, dequeue, front
+
+- Deque
+    - Stack: addFirst, removeFirst, peekFirst
+    - Queue: addLast, removeFirst, peekFirst

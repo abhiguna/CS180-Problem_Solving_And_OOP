@@ -1,0 +1,7 @@
+
+Ternary Operators
+
+int minVal = (a < b)? a : b;
+
+Template:
+(boolean expression)? evaluate if true: evaluate if false;

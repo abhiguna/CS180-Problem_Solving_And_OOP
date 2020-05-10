@@ -1,0 +1,14 @@
+try-with-resources statement
+//BufferedReader will automatically be closed when it is present in a
+    try-with-resources statement.
+
+static String readFirstLineFromFile(String path) throws IOException {
+    try (BufferedReader br =
+             new BufferedReader(new FileReader(path)))      {
+        return br.readLine();
+   }
+    catch (StudentNotFoundException e) {
+    // code to handle other exceptions
+   }
+}
+

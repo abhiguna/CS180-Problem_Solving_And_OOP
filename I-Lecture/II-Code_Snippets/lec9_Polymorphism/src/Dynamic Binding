@@ -1,0 +1,6 @@
+Dynamic Binding
+
+The compiler decides at runtime which method to execute.
+Executes the Object referenced.
+
+Eg. void speak in Dog--NOT--Animal.

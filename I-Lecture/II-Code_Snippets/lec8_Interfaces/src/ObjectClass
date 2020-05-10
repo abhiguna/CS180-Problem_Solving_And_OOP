@@ -1,0 +1,16 @@
+Object Class
+
+- All methods in Java inherit the Object Class implicitly.
+
+* Class can only "extend" one class but
+        can "implement" multiple interfaces.
+
+* Java = "Single Inheritance System".
+
+Useful Methods in Object Class:
+1. clone() - Makes a copy of the Object.
+2. equals(Object e);
+3. toString();
+    - Can be Overriden.
+
+

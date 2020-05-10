@@ -1,0 +1,25 @@
+ArrayList
+
+- ArrayList is a built-in class that can be imported.
+    * import java.util.*;
+
+- An ArrayList can be defined as follows:
+    1. ArrayList<String> list = new ArrayList<String>();
+    2. var list = new ArrayList<String>();
+    3. ArrayList<String> list = new ArrayList<>();
+
+- ArrayList<REFERENCE TYPES>:
+    - Can use Wrapper Classes:
+        * Integer
+        * Double
+        * Float
+        * Boolean
+
+* Useful Methods *
+    - add(e): adds e to the end of the list
+    - add(i, e): adds e to the specified index
+    - contains(e): returns true if e is in the list
+    - get(i): returns the value at index i
+    - remove(e): removes e from the list
+    - set(i, e): changes the value at i to be e.
+    - size(): returns the current size of the list.

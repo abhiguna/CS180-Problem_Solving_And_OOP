@@ -1,0 +1,9 @@
+Checked vs Unchecked Exception
+
+-> RunTimeException and its subclasses are unchecked Exceptions
+    * Program Crashes
+    * No Recovery Possible.
+
+-> All Other Exceptions are "Checked"
+    - Must Check for them.
+    - Typically Recoverable.

@@ -1,0 +1,8 @@
+Convention
+
+1. Make methods public
+2. Make fields private since their values
+        shouldn't be accessed
+3. Make "final" constants public since they
+        can't be changed.
+

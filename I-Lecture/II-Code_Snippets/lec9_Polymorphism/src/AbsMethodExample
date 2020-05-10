@@ -1,0 +1,25 @@
+EXAMPLE: ABSTRACT METHODS
+- First Concrete Class must contain all implementations.
+
+abstract public class AbstractParent {
+    abstract void doOne();
+    abstract void doTwo();
+}
+
+abstract class AbstractChild extends AbstractParent {
+    void doOne() {
+        System.out.println("in AbstractChild");
+    }
+}
+
+class ConcreteGrandChild extends AbstractChild {
+    void doTwo() {
+        System.out.println("in ConcreteGrandChild");
+    }
+}
+
+ public static void main(String[] args) {
+        ConcreteGrandChild cc = new ConcreteGrandChild();
+        cc.doOne();
+        cc.doTwo();
+ }

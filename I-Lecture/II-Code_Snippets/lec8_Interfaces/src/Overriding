@@ -1,0 +1,18 @@
+Accessing Overriding Methods
+
+- Overridden Methods can also be accessed using super.method()
+
+Example:
+
+public class Person {
+    public void display() {
+        System.out.println("I am a Person!");
+    }
+}
+
+public class Student extends Person() {
+    public void display() {
+        super.display();
+        System.out.println("I am a Student!");
+    }
+}

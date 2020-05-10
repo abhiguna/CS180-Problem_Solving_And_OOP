@@ -1,0 +1,5 @@
+this Keyword
+
+- "this" is a Java reserved keyword.
+- It acts as a reference to the current Object.
+- this.field refers to the field of the current Object.

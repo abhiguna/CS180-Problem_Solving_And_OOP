@@ -1,0 +1,9 @@
+Abstract Methods
+
+Methods may be declared abstract
+- Provide only the header (no body)
+- Class must then be declared abstract
+Methods in an interface are implicitly declared abstract
+When subclassing an abstract class
+- Generally provide method bodies for abstract methods
+- If abstract methods remain, then subclass is still abstract and must be declared so

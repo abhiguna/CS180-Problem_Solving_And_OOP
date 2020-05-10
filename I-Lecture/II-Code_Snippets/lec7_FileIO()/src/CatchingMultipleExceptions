@@ -1,0 +1,25 @@
+* Multiple Try-Catch Blocks
+
+try {
+    --Statements-That-May-Throw-An-Exception--
+} catch (StudentNotFoundException e) {
+    // code to handle student not found.
+} catch (NullPointerException e) {
+    // code to handle NullPointerException.
+} catch (Exception e) {
+    // code to handle all other exceptions.
+}
+
+* Finally Clause
+
+- The "finally" clause is executed after all other try/catch statements.
+- the "finally" clause is guaranteed to execute.
+
+try {
+    ...statements-that-may-throw-exceptions;
+} catch (StudentNotFoundException e) {
+    // code to handle student not found
+    ...
+} finally {
+    // code to clean things up.
+}

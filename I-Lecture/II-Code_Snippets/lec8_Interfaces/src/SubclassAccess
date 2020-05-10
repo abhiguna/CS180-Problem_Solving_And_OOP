@@ -1,0 +1,8 @@
+Subclass Access
+
+* Subclasses cannot access private fields in their superclasses
+* Two options:
+    - Leave as is; provide accessors and/or mutators
+    - Change private to protected
+        -- Protected allows subclass access to superclass fields (even if the subclass is in a different package)
+*** General advice: use accessors and mutators

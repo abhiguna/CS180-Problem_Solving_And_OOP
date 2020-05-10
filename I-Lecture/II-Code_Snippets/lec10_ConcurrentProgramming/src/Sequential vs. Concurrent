@@ -1,0 +1,6 @@
+Sequential:
+- "Single thread" of execution.
+
+Concurrent:
+- "Multiple threads" of execution.
+- Many cores are needed.

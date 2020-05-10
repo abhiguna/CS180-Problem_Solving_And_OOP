@@ -1,0 +1,15 @@
+File I/O Layers
+
+Low-Level
+- “Raw” data transfer: byte-oriented
+- Classes: FileOutputStream, FileInputStream
+
+High-Level
+- Java primitive types
+- Classes: DataOutputStream, DataInputStream
+
+Object I/O
+- Java object types
+- Classes: ObjectOutputStream, ObjectInputStream
+
+* Ultimately, all data stored as a sequence of bytes

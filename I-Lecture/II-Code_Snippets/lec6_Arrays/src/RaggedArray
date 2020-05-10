@@ -1,0 +1,9 @@
+Declaring a Ragged Array
+
+Ragged Array: A type of array whose dimensions are not symmetric.
+int[][] matrix = new int[5][];
+matrix[0] = new int[7];
+matrix[1] = new int[10];
+matrix[2] = new int[4];
+matrix[3] = new int[6];
+matrix[4] = new int[7];

@@ -1,0 +1,14 @@
+Random Class
+
+- In order to generate Random numbers in Java, you must import the Random Object
+
+import java.util.Random
+
+*------------------*
+Random randomGenerator = new Random();
+*------------------*
+
+randomGenerator.nextInt(int n) -> [0, n)
+randomGenerator.nextDouble() -> [0, 1.0)
+randomGenerator.nextInt() -> Returns any possible negative or
+                             positive integer.

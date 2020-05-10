@@ -1,0 +1,8 @@
+Recursive Implementation
+
+- When a method is called, parameters and local
+  variables are "pushed" onto the "call stack"
+
+- When a method returns, the previously executing
+    method begins where it left off.
+

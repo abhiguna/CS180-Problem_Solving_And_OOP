@@ -1,0 +1,15 @@
+For Each Loop (Alternative to the traditional for loop)
+
+! Limitation ! - Read-only access to each element
+
+---------- for loop --------------
+int[] bloodPressure = new int[500];
+for (int i = 0; i < bloodPressure.length; i++) {
+    sum += bloodPressure[i];
+}
+
+---------- for-each loop ------------
+int[] bloodPressure = new bloodPressure[500];
+for (int value : bloodPressure) {
+    sum += value;
+}

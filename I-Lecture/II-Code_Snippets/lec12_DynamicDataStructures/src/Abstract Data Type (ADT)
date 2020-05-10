@@ -1,0 +1,26 @@
+Abstract Data Type
+
+- A Description of the behavior of the data type without
+  specifying its implementation details.
+
+- Provides users of ADT with flexibility.
+
+* Two Common ADTs
+- Stack (LIF0 - Last in First Out)
+    - Models a "stack of plates"
+    - Operations:
+        ~ push an element on the stack
+        ~ pop an element off the stack
+        ~ isEmpty() - check if the stack is empty
+
+- Queue (FIFO - First in First Out)
+    - Models a "line of people."
+    - Operations:
+        * Enqueue:
+        * Dequeue:
+        * isEmpty:
+
+    Uses:
+        - Files sent to a printer.
+        - Threads.
+        - Network packets waiting for transmission.

@@ -1,0 +1,12 @@
+Arrays Class
+
+must import java.util.Arrays;
+
+Important Methods:
+- Arrays.binarySearch(int[] array, int value)
+- Arrays.copyOf(double[] array, int length)
+- Arrays.copyOfRange(double[] array, int from, int to)
+- Arrays.equals(int[] array1, int[] array2)
+- Arrays.fill(double[] array, double value)
+- Arrays.sort(int[] array)
+- Arrays.toString(double[] array)

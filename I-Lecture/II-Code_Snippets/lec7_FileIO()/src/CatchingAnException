@@ -1,0 +1,24 @@
+Catching an Exception: Basic Syntax
+
+Basic Syntax of the try-catch statement...
+
+Option 1: Try-Catch Block
+
+try {
+    statements-that-might-throw-exception;
+} catch (Exception e) {
+    e.printStackTrace();
+}
+
+Option 2: "throws" Keyword
+
+public void doit(int x) throw Exception {
+    statements-that-might-throw-an-exception;
+}
+
+Exception Class -- Must be Imported!
+
+Two useful Methods:
+1. e.printStackTrace(); //Prints the call stack
+2. e.getMessage();  //Prints the associated Message
+

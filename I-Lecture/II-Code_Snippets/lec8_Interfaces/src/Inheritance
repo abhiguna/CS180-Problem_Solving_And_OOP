@@ -1,0 +1,17 @@
+Inheritance
+
+- A Java Property Wherein, the "subclass" inherits the
+  fields and methods of the "superclass".
+
+- "extends" Keyword must be used.
+
+Terminology
+* If Student inherits the property of Person, then
+
+- Student "extends" Person
+- Student is a "subclass" of Person
+- Person is a "superclass" of Person
+- Person is the PARENT class
+- Student is the CHILD class
+- Person is the "base" class
+- Student is the "derived" class

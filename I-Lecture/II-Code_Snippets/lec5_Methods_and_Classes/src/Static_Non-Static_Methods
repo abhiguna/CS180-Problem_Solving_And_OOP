@@ -1,0 +1,10 @@
+Static and Non-Static Methods
+
+* Static Method
+    - Can only access static fields and call other static methods in the class
+    - Can be called using class name: Math.pow(2,5).
+
+* Non-Static Method (aka Object/Instance Methods)
+    - Can also access object methods associated with a particular object
+    - Eg. this.describe, t3.describe().
+

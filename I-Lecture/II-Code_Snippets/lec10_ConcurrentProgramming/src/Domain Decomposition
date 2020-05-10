@@ -1,0 +1,11 @@
+Domain Decomposition
+
+Domain: Input examined by the Problem.
+
+Domain -> (SubDomain1 + SubDomain2 + ...)
+
+Each subdomain given to a task running on a different core.
+
+Primary Benefit: raw speed.
+
+Example: Partitioning Matrices

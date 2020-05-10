@@ -1,0 +1,9 @@
+Java Access Modifiers
+
+Keyword                 Restriction
+1. public               None (any other method can access)
+2. protected            Only methods in this class, subclasses, or in
+                        classes in the same package can access.
+3. package-private      Only methods in the class or in classes in the same
+   (default)            package can access (called "package private"
+4. private              Only methods in the class can access

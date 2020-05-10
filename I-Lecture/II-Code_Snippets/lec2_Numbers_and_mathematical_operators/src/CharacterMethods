@@ -1,0 +1,12 @@
+Here are some Useful Character Methods:
+
+Must import java.util.Scanner:
+
+Character.toLowerCase()
+Character.toUpperCase()
+Character.isLowerCase()
+Character.isUpperCase()
+Character.isDigit()
+Character.isLetter()
+Character.isLetterOrDigit()
+Character.isWhiteSpace()

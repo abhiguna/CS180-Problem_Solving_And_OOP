@@ -1,0 +1,23 @@
+varargs (variable-length argument)
+
+public static void func(int ... a) {
+    //method body
+}
+
+*** Tells the compiler that func() can be called if it contains
+    zero or more arguments.
+
+*** a simply declared as type int[].
+
+public static void main(String[] args) {
+    func(100);                  //sends array {100}
+    func(1, 2, 3, 4);           //sends array {1,2,3,4}
+    func();                     //sends array {}
+}
+
+a.length -> length of vararg a
+
+-- VarArg parameter should be the last parameter in a method definition.
+Eg. Below Method Definition
+
+int nums(int a, float b, double ... c)

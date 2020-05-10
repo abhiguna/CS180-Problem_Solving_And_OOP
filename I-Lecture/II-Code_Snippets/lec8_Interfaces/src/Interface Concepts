@@ -1,0 +1,8 @@
+Interfaces?
+
+- A point where two systems interact with each other.
+- Asymmetric - One system defines it while the other uses it.
+
+Eg.
+. GUI (Graphical User Interface)
+. API (Application Programming Interface)

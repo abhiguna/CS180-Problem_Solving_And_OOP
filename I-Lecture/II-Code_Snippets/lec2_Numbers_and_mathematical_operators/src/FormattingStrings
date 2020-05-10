@@ -1,0 +1,15 @@
+Different Ways to Format Strings in Java
+
+Important:
+- %s: String
+- %c: Character
+- %d: Integer (byte, short, int, long)
+- %f: Float (float, double)
+
+Width-Specifier:
+- %10s - Left (String) Justification with a padding of 10.
+- %-10s - Right (String) Justification with a padding of 10.
+- %12d - Left (Integer) Justification with a padding of 12.
+- %10.3f - Left (Double) Justification with a rounding to 3 decimal places.
+- %.2f - Rounding to 2 decimal places.
+

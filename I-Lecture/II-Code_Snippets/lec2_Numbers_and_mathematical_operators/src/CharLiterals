@@ -1,0 +1,7 @@
+char Literals
+
+Escape Sequences in Java:
+'\t' = Tab
+'\n' = New line
+'\'' = Single Quote
+'\\' = Backslash

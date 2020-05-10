@@ -1,0 +1,20 @@
+Problem: DaisyDriveIn
+
+- if you work more than 20 hours at the Daisy Drive-in,
+they pay you $8/hour for first 20 hours plus $10/hour
+for all hours above 20.  Otherwise, they pay you $7/hour
+
+- Write a method: computePay()
+
+double computePay(double hours) {
+    boolean hoursGreaterThan20 = hours > 20;
+    double wages = 0.0;
+    if (hoursGreaterThan20) {
+        int deltaWork = hours - 20;
+        wages = (8.00 * 20) + (10.00 * deltaWork);
+    }
+    else {
+        wages = 7.00 * hours;
+    }
+    return wages;
+}
